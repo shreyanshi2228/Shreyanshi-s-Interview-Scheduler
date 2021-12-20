@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: rgb(156, 133, 133);
+}
+.navbar {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #8a7c7c;
+}
+.navbar h1 {
+  color: #bbadb1;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 3px;
+  text-decoration: none;
+  padding: 4px;
+}
+.content {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* blog previews / list */
+.interview-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.interview-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.interview-preview h2 {
+  font-size: 20px;
+  color: #534e50;
+  margin-bottom: 8px;
+}
+
+.red-btn {
+  color: white;
+  background-color: #77696c;
+  border-radius: 6px;
+}
+
+.green-btn {
+  color: white;
+  background-color: #18a558;
+  border-radius: 6px;
+  padding: 2px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.blue-btn {
+  color: white;
+  background-color: #39393a;
+  border-radius: 6px;
+}
+
+.create {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.create label {
+  text-align: left;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #6d6668;
+  margin-bottom: 30px;
+}
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #463e41;
+  margin-top: 20px;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
