@@ -7,6 +7,9 @@ TO INSTALL:
 4. And finally run npm start and boom. (You can see the file in the local browser).
 
 
+
+
+
 BASIC REQUIREMENTS
 An interview creation page where the admin can create an interview by selecting participants, start time and end time. Backend should throw error with proper error message if: 
 1. Any of the participants is not available during the scheduled time (i.e, has another interview scheduled).
